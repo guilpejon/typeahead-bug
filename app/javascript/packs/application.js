@@ -9,7 +9,8 @@ require("@rails/activestorage").start()
 require("channels")
 require("jquery")
 
-require("typeahead.js/dist/typeahead.jquery.js");
+global.Bloodhound = require('imports-loader?define=>false!corejs-typeahead/dist/bloodhound.js');
+require("imports-loader?exports=>false,define=>false!corejs-typeahead/dist/typeahead.jquery.js");
 
 import './autocomplete.js'
 

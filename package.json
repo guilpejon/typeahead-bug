@@ -12,6 +12,7 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "imports-loader": "^0.8.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
